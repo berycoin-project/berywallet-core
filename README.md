@@ -1,4 +1,4 @@
 # breadwallet-core
-SPV bitcoin C library
+SPV Berycoin C library
 
 [getting sarted](https://github.com/breadwallet/breadwallet-core/wiki)
