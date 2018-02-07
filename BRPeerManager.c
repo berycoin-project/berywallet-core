@@ -54,9 +54,11 @@ static const struct { uint32_t height; const char *hash; uint32_t timestamp; uin
 };
 
 static const char *dns_seeds[] = {
-    "seed1.berycoin.com.",
-    "seed2.berycoin.com.",
-    "seed4.berycoin.com."
+    "dnsseed.berycoin.com.",
+    "dnsseed.berycoin.org.",
+    "dnsseed.beryxchange.com.",
+    "bago.resteemexposure.com.",
+    "bilal.myfxstore.com."
 };
 
 #else // main net
@@ -64,13 +66,15 @@ static const char *dns_seeds[] = {
 // blockchain checkpoints - these are also used as starting points for partial chain downloads, so they need to be at
 // difficulty transition boundaries in order to verify the block difficulty at the immediately following transition
 static const struct { uint32_t height; const char *hash; uint32_t timestamp; uint32_t target; } checkpoint_array[] = {
-    { 0, "0x64770bab6a22948dc589626d6ae2a09fc7eea4b57763f47276dcd719f4606b48", 1508485972, 0x1e0fff00 }
+    { 0, "0xf775b84ccf0d0875eb5d650c0005e61fe382fd6e4c00f4a2f6a6e8e24502f199", 1517825163, 0x1e0aff00 }
 };
 
 static const char *dns_seeds[] = {
-    "seed1.berycoin.com.",
-    "seed2.berycoin.com.",
-    "seed4.berycoin.com."
+    "dnsseed.berycoin.com.",
+    "dnsseed.berycoin.org.",
+    "dnsseed.beryxchange.com.",
+    "bago.resteemexposure.com.",
+    "bilal.myfxstore.com."
 };
 
 #endif
